@@ -5,7 +5,7 @@
         />
         <div v-else>
             <div class="page-title">
-                <h3>Все пользователи</h3>
+                <h3>Список пользователей</h3>
             </div>
 
             <PieCharts

@@ -58,6 +58,8 @@ services:
             context: .
             dockerfile: ./docker/node/Dockerfile
         container_name: app-front
+        volumes:
+            - ${APP_PATH_FRONT}:${APP_PATH_CONTAINER_FRONT}
         ports:
             - 8081:80
         depends_on:
